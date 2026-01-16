@@ -1,0 +1,17 @@
+{
+  "name": "villabatteri-crm",
+  "version": "1.0.0",
+  "description": "CRM-system för hantering av leads och säljprocesser för villabatterier",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "keywords": ["crm", "villabatteri", "leads", "sales"],
+  "author": "",
+  "license": "MIT"
+}
